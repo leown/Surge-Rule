@@ -158,6 +158,7 @@ proxy-groups:
   - {name: TH, <<: *a4, filter: "泰国"}
   - {name: AE, <<: *a4, filter: "阿联酋|迪拜"}
   - {name: TR, <<: *a4, filter: "土耳其|TR|(?i)Turkey"}
+  - {name: OTHER,<<: *a4, filter: "(澳)|(Australia)|(加拿)|(Canada)"}
 
   - {name: 🚀 Manual, <<: *a2}
   - {name: Adobe, type: select, proxies: [REJECT] }
@@ -169,13 +170,13 @@ proxy-groups:
   - {name: GitHub, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/GitHub.png }
   - {name: Google, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png }
   - {name: Microsoft, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png }
-  - {name: Netflix, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png }
+  - {name: Netflix, type: select, proxies: [US, HK, SG, TW], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png }
   - {name: NetEase, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/NetEase.png }
   - {name: OpenAI, type: select, proxies: [US], icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg}
   - {name: Spotify, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Spotify.png }
   - {name: Speedtest, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png }
   - {name: Steam, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/TencentVideo.png }
-  - {name: Telegram, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png }
+  - {name: Telegram, type: select, proxies: [US, HK, SG, JP, TW], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png }
   - {name: Twitter, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Twitter.png }
   # - {name: Tencent, type: select, proxies: [JP], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Tencent.png }
   # - {name: TencentVideo, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/TencentVideo.png }
