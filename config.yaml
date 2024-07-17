@@ -161,10 +161,9 @@ proxy-groups:
   - {name: OTHER,<<: *a4, filter: "(澳)|(Australia)|(加拿)|(Canada)"}
 
   - {name: 🚀 Manual, <<: *a2}
-  - {name: Adobe, type: select, proxies: [REJECT] }
+  - {name: Apple, type: select, proxies: [US, HK, JP, DIRRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Facebook.png }
   - {name: China, type: select, proxies: [DIRECT]}
   - {name: Facebook, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Facebook.png }
-  - {name: GitHub, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/GitHub.png }
   - {name: Google, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png }
   - {name: Microsoft, <<: *a2, filter: "美国|US|(?i)States|American", icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png }
   - {name: Netflix, type: select, proxies: [US, HK, SG, TW], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png }
