@@ -165,7 +165,7 @@ proxy-groups:
   - {name: China, type: select, proxies: [DIRECT]}
   - {name: Facebook, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Facebook.png }
   - {name: Google, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png }
-  - {name: Microsoft, <<: *a2, filter: "美国|US|(?i)States|American", icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png }
+  - {name: Microsoft, type: select, proxies: [US, DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png }
   - {name: Netflix, type: select, proxies: [US, HK, SG, TW], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png }
   - {name: OpenAI,  <<: *a2, filter: "美国|US|(?i)States|American", icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg}
   - {name: Speedtest, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png }
