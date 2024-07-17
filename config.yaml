@@ -220,24 +220,25 @@ rules:
 # 分流
   - RULE-SET,Adobe,REJECT
   - RULE-SET,Apple,Apple
-  - RULE-SET,Amazon,Amazon
-  - RULE-SET,DingTalk,DingTalk
+  # - RULE-SET,Amazon,Amazon
+  # - RULE-SET,DingTalk,DingTalk
   - RULE-SET,Facebook,Facebook
   - RULE-SET,GitHub,GitHub
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Netflix,Netflix
   - RULE-SET,NetEase,NetEase
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Speedtest,DIRECT 
   - RULE-SET,Steam,DIRECT
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Twitter,Twitter
-  - RULE-SET,Tencent,Tencent
-  - RULE-SET,TencentVideo,DIRECT
+  # - RULE-SET,Tencent,Tencent
+  # - RULE-SET,TencentVideo,DIRECT
   - RULE-SET,YouTube,YouTube
-  - RULE-SET,WhatsApp,WhatsApp
-  - RULE-SET,WeChat,WeChat
+  # - RULE-SET,WhatsApp,WhatsApp
+  # - RULE-SET,WeChat,WeChat
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Zoom,Zoom
   - RULE-SET,China,DIRECT
