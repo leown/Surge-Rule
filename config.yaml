@@ -201,7 +201,7 @@ rule-providers:
   Microsoft: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/Microsoft.yaml, path: ./ruleset/Microsoft.yaml}
   Netflix: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/Netflix.yaml, path: ./ruleset/Netflix.yaml}
   NetEase: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/NetEase.yaml, path: ./ruleset/NetEase.yaml}
-  OpenAI: {<<: *a2, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml, path: ./ruleset/OpenAI.yaml}
+  OpenAI: {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml, path: ./ruleset/OpenAI.yaml}
   Spotify: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/Spotify.yaml, path: ./ruleset/Spotify.yaml}
   Speedtest: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/Speedtest.yaml, path: ./ruleset/Speedtest.yaml}
   Steam: {<<: *a6, url: https://cdn.jsdelivr.net/gh/Semporia/Clash@master/Rule/Steam.yaml, path: ./ruleset/Steam.yaml}
