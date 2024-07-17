@@ -172,7 +172,7 @@ proxy-groups:
   - {name: Microsoft, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png }
   - {name: Netflix, type: select, proxies: [US, HK, SG, TW], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png }
   - {name: NetEase, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/NetEase.png }
-  - {name: OpenAI,  <<: *a4, filter: "美国|US|(?i)States|American", icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg}
+  - {name: OpenAI,  <<: *a2, filter: "美国|US|(?i)States|American", icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg}
   - {name: Spotify, type: select, proxies: [US], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Spotify.png }
   - {name: Speedtest, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png }
   - {name: Steam, type: select, proxies: [DIRECT], icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/TencentVideo.png }
